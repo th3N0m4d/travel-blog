@@ -1,0 +1,29 @@
+{
+  "name": "travel-blog",
+  "version": "1.0.0",
+  "description": "A minimalist serverless travel blog app",
+  "main": "server/api.js",
+  "scripts": {
+    "create": "claudia create --profile travel-blog --region eu-central-1 --api-module src/server/api",
+    "update": "claudia update",
+    "destroy": "claudia destroy --source"
+  },
+  "keywords": [
+    "Amazon",
+    "AWS",
+    "ClaudiaJs",
+    "DynamoDB",
+    "TestCafe",
+    "Gherkin",
+    "Typescript",
+    "ReactJs",
+    "Jest"
+  ],
+  "author": "th3N0m4d",
+  "license": "MIT",
+  "dependencies": {
+    "claudia": "^5.14.0",
+    "claudia-api-builder": "^4.1.2",
+    "webpack": "^5.68.0"
+  }
+}
