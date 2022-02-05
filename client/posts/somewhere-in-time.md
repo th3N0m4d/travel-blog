@@ -1,6 +1,6 @@
 ---
 title: "SOMEWHERE IN TIME"
-postedOn: "2020-04-12"
+publishedOn: "2020-04-12"
 tags: "??? ??? ???"
 ---
 

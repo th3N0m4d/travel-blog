@@ -1,6 +1,6 @@
 ---
 title: "THANKS FOR WATCHING"
-postedOn: "2015-01-01"
+publishedOn: "2015-01-01"
 ---
 
 ![Beach](/images/blog-1.jpeg)

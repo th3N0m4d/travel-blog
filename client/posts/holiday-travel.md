@@ -1,6 +1,6 @@
 ---
 title: "HOLIDAY TRAVEL"
-postedOn: "2018-04-01"
+publishedOn: "2018-04-01"
 ---
 
 ![Holiday Travel](/images/blog-3.jpeg)
