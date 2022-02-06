@@ -3,6 +3,7 @@ import Head from "next/head";
 import { getSortedPostsData } from "../lib/posts";
 import BlogEntry from "../components/BlogEntry";
 import AboutMe from "../components/AboutMe";
+import RecentPosts from "../components/RecentPosts";
 
 export async function getStaticProps() {
   const posts = getSortedPostsData();
@@ -33,7 +34,11 @@ export default function Home({ posts }) {
                     {thumbnail && <BlogEntry.Thumbnail src={thumbnail} />}
                   </BlogEntry.Header>
                   <BlogEntry.Content summary>
-                    {`When Mary Lennox was sent to Manor to live with her uncle everybody said she was the most disagreeablelooking child ever seen. It was true, too. She had a little thin face and a little thin body, thin light hair and a sour expression. Her hair was yellow, and her face was yellow because she`}
+                    Proin eget tortor risus. Nulla quis lorem ut libero
+                    malesuada feugiat. Vestibulum ante ipsum primis in faucibus
+                    orci luctus et ultrices posuere cubilia Curae; Donec velit
+                    neque, auctor sit amet aliquam vel, ullamcorper sit amet
+                    ligula. Nulla porttitor accumsan tincidunt.
                   </BlogEntry.Content>
                   <BlogEntry.Footer />
                 </BlogEntry>
@@ -46,74 +51,15 @@ export default function Home({ posts }) {
         <div id="secondary" className="column third">
           <div id="sidebar-1" className="widget-area" role="complementary">
             <aside id="text-5" className="widget widget_text">
-              <AboutMe avatarSrc={"/images/avatar5.png"}>
+              <AboutMe avatarSrc="/images/avatar5.png">
                 Praesent sapien massa, convallis a pellentesque nec, egestas non
                 nisi. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar
                 a.
               </AboutMe>
             </aside>
             <aside id="recent-posts-2" className="widget widget_recent_entries">
-              <h4 className="widget-title">Recent Posts</h4>
-              <ul>
-                <li>
-                  <a href="blog-single.php">Somewhere in time</a>
-                </li>
-                <li>
-                  <a href="blog-single.php">Thanks for watching!</a>
-                </li>
-                <li>
-                  <a href="blog-single.php">Who could have thought?</a>
-                </li>
-                <li>
-                  <a href="blog-single.php">Text Alignement</a>
-                </li>
-                <li>
-                  <a href="blog-single.php">HTML Tags and Formatting</a>
-                </li>
-              </ul>
+              <RecentPosts posts={posts} />
             </aside>
-            {/* <aside id="text-6" className="widget widget_text">
-            <h4 className="widget-title">Like us on Facebook</h4>
-            <div className="textwidget">
-              <img
-                src="../assets/images/like-us.png"
-                alt="website template image"
-              />
-            </div>
-          </aside>
-          <aside
-            id="recent-comments-2"
-            className="widget widget_recent_comments"
-          >
-            <h4 className="widget-title">Recent Comments</h4>
-            <ul id="recentcomments">
-              <li className="recentcomments">
-                <span>ThemePush</span> on{" "}
-                <a href="blog-single.php">Male T-Shirt</a>
-              </li>
-              <li className="recentcomments">
-                <span>ThemePush</span> on{" "}
-                <a href="blog-single.php">Male T-Shirt</a>
-              </li>
-              <li className="recentcomments">
-                <span>
-                  <a
-                    href="https://www.free-css.com/free-css-templates"
-                    className="url"
-                  >
-                    Mr WordPress
-                  </a>
-                </span>{" "}
-                on <a href="blog-single.php">Thanks for watching!</a>
-              </li>
-              <li className="recentcomments">
-                <span>Maria</span> on <a href="blog-single.php">Gray Blouse</a>
-              </li>
-              <li className="recentcomments">
-                <span>Maria</span> on <a href="blog-single.php">Retro Dress</a>
-              </li>
-            </ul>
-          </aside> */}
           </div>
         </div>
       </Layout>
