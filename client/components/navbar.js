@@ -1,13 +1,15 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function NavBar() {
   return (
     <header id="masthead" className="site-header">
       <div className="site-branding">
         <h1 className="site-title">
-          <Link href="/">Travel Blog</Link>
+          <Link href="/">Travel Blog </Link>
+          <Image src="/images/website-logo.png" width={92} height={55} />
         </h1>
-        <h2 className="site-description">Minimalist Portfolio HTML Template</h2>
+        <h2 className="site-description">Discover a world of adventure!</h2>
       </div>
       <nav id="site-navigation" className="main-navigation">
         <button className="menu-toggle">Menu</button>
