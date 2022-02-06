@@ -2,6 +2,7 @@ import Layout from "../components/layout";
 import Head from "next/head";
 import { getSortedPostsData } from "../lib/posts";
 import BlogEntry from "../components/BlogEntry";
+import AboutMe from "../components/AboutMe";
 
 export async function getStaticProps() {
   const posts = getSortedPostsData();
@@ -45,24 +46,11 @@ export default function Home({ posts }) {
         <div id="secondary" className="column third">
           <div id="sidebar-1" className="widget-area" role="complementary">
             <aside id="text-5" className="widget widget_text">
-              <h4 className="widget-title">About Me</h4>
-              <div className="textwidget">
-                <p>
-                  <img
-                    src="/images/avatar5.png"
-                    alt="website template image"
-                    className="alignleft"
-                    style={{
-                      width: "80px",
-                      borderRadius: "50%",
-                      marginBottom: 0,
-                    }}
-                  />{" "}
-                  I'm a professional photographer for 10 years. It is a long
-                  established fact that a reader will be distracted by the
-                  readable content of a page when looking at its layout.
-                </p>
-              </div>
+              <AboutMe avatarSrc={"/images/avatar5.png"}>
+                Praesent sapien massa, convallis a pellentesque nec, egestas non
+                nisi. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar
+                a.
+              </AboutMe>
             </aside>
             <aside id="recent-posts-2" className="widget widget_recent_entries">
               <h4 className="widget-title">Recent Posts</h4>
