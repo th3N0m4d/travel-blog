@@ -1,6 +1,7 @@
 ---
 title: "SUNNY DAYS"
 publishedOn: "2022-01-01"
+thumbnail: "/images/blog-2.jpeg"
 ---
 
 ![Girl](/images/blog-2.jpeg)
