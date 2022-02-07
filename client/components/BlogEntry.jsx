@@ -1,6 +1,7 @@
 import { dateFormatOptions, summarizeContent } from "../utils";
 import Link from "next/link";
 import Image from "next/image";
+import ReactMarkdown from "react-markdown";
 
 const THUMBNAIL_WIDTH = 290;
 const THUMBNAIL_HEIGHT = 193;
@@ -35,25 +36,31 @@ const Thumbnail = ({ src }) => (
       alt="Post Thumbnail"
       width={THUMBNAIL_WIDTH}
       height={THUMBNAIL_HEIGHT}
+      priority
     />
   </div>
 );
 
-const Content = ({ children, summary }) =>
-  summary ? (
+const ContentSummary = ({ id, children }) => (
+  <>
     <div className="entry-summary">
       <p>
         {summarizeContent(children)}{" "}
-        <a className="more-link" href="blog-single.php">
-          Read more
-        </a>
+        <Link href={`/posts/${id}`}>
+          <a className="more-link">Read more</a>
+        </Link>
       </p>
     </div>
-  ) : (
-    <div className="entry-content">{children}</div>
-  );
+  </>
+);
 
-const Footer = ({}) => (
+const Content = ({ children }) => (
+  <div className="entry-content">
+    <ReactMarkdown>{children}</ReactMarkdown>
+  </div>
+);
+
+const Footer = () => (
   <footer className="entry-footer">
     <span className="cat-links">
       Posted in <a href="https://www.free-css.com/free-css-templates">audio</a>,{" "}
@@ -69,6 +76,7 @@ const BlogEntry = ({ children }) => {
 
 BlogEntry.Header = Header;
 BlogEntry.Content = Content;
+BlogEntry.ContentSummary = ContentSummary;
 BlogEntry.Footer = Footer;
 BlogEntry.Thumbnail = Thumbnail;
 

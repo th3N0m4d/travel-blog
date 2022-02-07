@@ -875,6 +875,7 @@ a:focus {
 /* Entry Content */
 .entry-content {
   white-space: normal;
+  text-align: justify;
 }
 .entry-content p:last-child {
   margin-bottom: 0;

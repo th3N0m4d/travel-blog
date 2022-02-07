@@ -17,7 +17,7 @@ export default function Layout({ children }) {
           />
         </Head>
         <NavBar />
-        <main className="site-content">{children}</main>
+        <main className="site-content blog">{children}</main>
       </div>
       <Footer />
       {/** Script Section */}
