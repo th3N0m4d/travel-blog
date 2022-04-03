@@ -12,6 +12,9 @@ jobs:
         with:
           node-version: "14"
 
+      - name: Install Dependencies
+        run: npm install
+
       - name: Lint Code
         run: npm run lint
 
