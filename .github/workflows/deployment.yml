@@ -1,5 +1,5 @@
 name: Deploy Travel Blog
-on: [push, pull_request]
+on: [push]
 jobs:
   vercel:
     runs-on: ubuntu-latest
