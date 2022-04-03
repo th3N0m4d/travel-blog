@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 const AboutMe = ({ avatarSrc, children }) => (
   <>
     <h4 className="widget-title">About Me</h4>

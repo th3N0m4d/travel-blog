@@ -7,7 +7,12 @@ export default function NavBar() {
       <div className="site-branding">
         <h1 className="site-title">
           <Link href="/">Travel Blog </Link>
-          <Image src="/images/website-logo.png" width={92} height={55} />
+          <Image
+            src="/images/website-logo.png"
+            alt="Website Logo"
+            width={92}
+            height={55}
+          />
         </h1>
         <h2 className="site-description">Discover a world of adventure!</h2>
       </div>
