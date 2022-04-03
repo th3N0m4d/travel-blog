@@ -1,8 +1,8 @@
 /* eslint-disable @next/next/no-page-custom-font */
 /* eslint-disable @next/next/google-font-display */
 import Head from "next/head";
-import Footer from "./footer";
-import NavBar from "./navbar";
+import Footer from "./Footer";
+import NavBar from "./Navbar";
 import Script from "next/script";
 
 export default function Layout({ children }) {
