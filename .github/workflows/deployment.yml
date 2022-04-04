@@ -1,8 +1,8 @@
 name: Deploy Travel Blog
 on: [push]
 jobs:
-  name: Deploy To Vercel
   deploy_to_vercel:
+    name: Deploy To Vercel
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
