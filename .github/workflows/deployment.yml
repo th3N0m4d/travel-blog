@@ -1,7 +1,6 @@
 name: Deploy Travel Blog
 on: [push]
 jobs:
-  name: Deploy To Vercel
   deploy_to_vercel:
     runs-on: ubuntu-latest
     steps:
