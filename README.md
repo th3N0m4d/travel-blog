@@ -173,13 +173,13 @@ Click [here](https://www.wowthemes.net/moschino-free-wordpress-theme/) to see mo
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/th3N0m4d/travel-blog.svg?style=for-the-badge
 [forks-url]: https://github.com/th3N0m4d/travel-blog/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/th3N0m4d/travel-blog.svg?style=for-the-badge
 [stars-url]: https://github.com/th3N0m4d/travel-blog/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/th3N0m4d/travel-blog.svg?style=for-the-badge
 [issues-url]: https://github.com/th3N0m4d/travel-blog/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/th3N0m4d/travel-blog.svg?style=for-the-badge
 [license-url]: https://github.com/th3N0m4d/travel-blog/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/n0m4d/
