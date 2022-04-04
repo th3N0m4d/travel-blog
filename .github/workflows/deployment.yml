@@ -11,7 +11,7 @@ jobs:
             node-version: "14"      
       - run: npm install
       - run: npm run lint
-      _ run: npm run build
+      - run: npm run build
       - uses: amondnet/vercel-action@v20 #deploy
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }} # Required
