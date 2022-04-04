@@ -13,10 +13,10 @@
     <img src="./public/images/website-logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Nextjs Blog App</h3>
+<h3 align="center">Travel Blog</h3>
 
   <p align="center">
-    Travel Blog is a simple and yet modern blogging website which uses modern concepts such as SSR (Server Side Rendering) among other wizardries.
+    Travel Blog is a simple and yet modern blogging website which uses modern concepts such as SSR (Server Side Rendering), semantic tags, and clound functions.
     <br />
     <a href="https://github.com/th3N0m4d/travel-blog/wiki"><strong>Explore the docs »</strong></a>
     <br />
@@ -46,7 +46,7 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
+    <!-- <li><a href="#usage">Usage</a></li> -->
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -59,9 +59,11 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+This project's main goal is to explore the myriad of technologies and approaches catered to the blogging community.
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `Nextjs Blog App`, `project_description`
+My main focus will be on using modern technologies such as Nextjs and AWS services, such as Cloud Functions.
+
+The second goal of this project is to learn about the unique challenges posed by this kind of app, i.e. making the website as SEO (Search Engine Optimization) friendly as possible, accessibility, performance and content management.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -77,12 +79,9 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Please, follow the instructions below in order for your to be able to run and experiment with this project.
 
 ### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
 
 - npm
   ```sh
@@ -91,31 +90,30 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   https://github.com/th3N0m4d/travel-blog.git
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = "ENTER YOUR API";
+3. Run project locally
+   ```sh
+   npm run dev
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
 
-## Usage
+<!-- ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p> -->
 
 <!-- ROADMAP -->
 
@@ -123,6 +121,8 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 - [ ] Replace Custom CSS With Tailwind
 - [ ] Enable Blog Post Commenting With Disqus
+- [ ] Ability To Create Blog Posts Via The Website
+- [ ] Enable Offline Mode
 
 See the [open issues](https://github.com/th3N0m4d/travel-blog/issues) for a full list of proposed features (and known issues).
 
