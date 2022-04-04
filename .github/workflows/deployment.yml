@@ -7,25 +7,25 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v3
 
-      - name: Setup Node
-        uses: actions/setup-node@v3
-          with:
-            node-version: "14"
+      # - name: Setup Node
+      #   uses: actions/setup-node@v3
+      #     with:
+      #       node-version: "14"
 
-      - name: Install Dependencies
-        run: npm install
+      # - name: Install Dependencies
+      #   run: npm install
 
-      - name: Lint Code
-        run: npm run lint
-      
-      - name: Build
-        run: npm run build
+      # - name: Lint Code
+      #   run: npm run lint
 
-      - name: Deploy to Production
-        uses: amondnet/vercel-action@v20 #deploy
-        with:
-          vercel-token: ${{ secrets.VERCEL_TOKEN }} # Required
-          # vercel-args: "--prod" #Optional
-          vercel-org-id: ${{ secrets.ORG_ID}} #Required
-          vercel-project-id: ${{ secrets.PROJECT_ID}} #Required
-          # working-directory: ./sub-directory
+      # - name: Build
+      #   run: npm run build
+
+      # - name: Deploy to Production
+      #   uses: amondnet/vercel-action@v20 #deploy
+      #   with:
+      #     vercel-token: ${{ secrets.VERCEL_TOKEN }} # Required
+      #     # vercel-args: "--prod" #Optional
+      #     vercel-org-id: ${{ secrets.ORG_ID}} #Required
+      #     vercel-project-id: ${{ secrets.PROJECT_ID}} #Required
+      #     # working-directory: ./sub-directory
