@@ -119,10 +119,38 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 ## Roadmap
 
+### New Features
+
+- [ ] Offline Mode
+- [ ] Collect User Analytics
+- [ ] Make Website SEO Friendly
+- [ ] Add to Home Screen
+- [ ] Ability To Create Blogs
+- [ ] Comment Management With Disqus
+- [ ] Contact Me Page
+- [ ] About Me Page
+- [ ] CSS Theme Based On OS'
+
+### Enhancements
+
 - [ ] Replace Custom CSS With Tailwind
-- [ ] Enable Blog Post Commenting With Disqus
-- [ ] Ability To Create Blog Posts Via The Website
-- [ ] Enable Offline Mode
+- [ ] Simplify Imports With Module Aliases
+- [ ] Improve README File Wording
+- [ ] Use Ramda
+
+### Bugs
+
+- [ ] Blog Posts Are Not Correctly Laid Out
+
+### QA
+
+- [ ] Integration Tests With TestCafe:
+- [ ] Enable Test Coverage With Coveralls
+- [ ] Handle Rendering Errors With Error Boundary
+
+### Deployment Pipeline
+
+- [ ] Ability To Preview Deployments
 
 See the [open issues](https://github.com/th3N0m4d/travel-blog/issues) for a full list of proposed features (and known issues).
 
