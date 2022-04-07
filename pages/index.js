@@ -23,7 +23,7 @@ export default function Home({ posts }) {
       <Layout>
         <div id="primary" className="content-area column two-thirds">
           <main id="main" className="site-main" role="main">
-            <div className="grid bloggrid">
+            <div className="grid">
               {posts.map(({ id, title, publishedOn, thumbnail }) => (
                 <BlogEntry key={id}>
                   <BlogEntry.Header

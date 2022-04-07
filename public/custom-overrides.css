@@ -1,0 +1,6 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /** this feature is experimental and it only works on Firefox **/
+  grid-template-rows: masonry;
+}
