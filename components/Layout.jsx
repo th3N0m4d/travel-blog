@@ -3,7 +3,6 @@
 import Head from "next/head";
 import Footer from "./Footer";
 import NavBar from "./NavBar";
-import Script from "next/script";
 
 export default function Layout({ children }) {
   return (
@@ -22,11 +21,6 @@ export default function Layout({ children }) {
         <main className="site-content blog">{children}</main>
       </div>
       <Footer />
-      {/** Script Section */}
-      <Script src="js/jquery.js" strategy="beforeInteractive" />
-      <Script src="js/plugins.js" />
-      <Script src="js/scripts.js" />
-      <Script src="js/masonry.pkgd.min.js" />
     </>
   );
 }
